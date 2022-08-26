@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: webflux
+#  main:
+#    web-application-type: reactive
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: my.server.com:8848
+
+server:
+  port: 8015
