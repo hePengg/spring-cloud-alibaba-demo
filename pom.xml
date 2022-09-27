@@ -13,6 +13,8 @@
         <module>nacos-provider</module>
         <module>gateway</module>
         <module>webflux</module>
+<!--        <module>netty-server</module>-->
+<!--        <module>netty-client</module>-->
     </modules>
 
     <parent>

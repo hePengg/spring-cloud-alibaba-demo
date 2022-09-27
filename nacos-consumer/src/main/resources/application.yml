@@ -5,6 +5,8 @@ spring:
     nacos:
       discovery:
         server-addr: my.server.com:8848
+#        group:
+#        namespace: 154df3a2-204d-48a2-950c-96d4aa96c8d5
 
 server:
   port: 8081
