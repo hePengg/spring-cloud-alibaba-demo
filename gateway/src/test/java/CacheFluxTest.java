@@ -42,22 +42,22 @@ public class CacheFluxTest {
 
     @Test
     public void test() {
-        Flux<String> flux = map3.get("2");
-        flux.subscribe(System.out::println);
-
-        flux.doOnError((throwable) -> {
-//            System.out.println("v :" + v);
-//            System.out.println(throwable);
-        }).subscribe(
-            s -> {
-                if (s.equals("2")) {
-                    throw new RuntimeException("test throw exp");
-                } else {
-                    System.out.println(s);
-                }
-            }
-        );
-
-        flux.subscribe(System.out::println);
+//        Flux<String> flux = map3.get("2");
+//        flux.subscribe(System.out::println);
+//
+//        flux.doOnError((throwable) -> {
+////            System.out.println("v :" + v);
+////            System.out.println(throwable);
+//        }).subscribe(
+//            s -> {
+//                if (s.equals("2")) {
+//                    throw new RuntimeException("test throw exp");
+//                } else {
+//                    System.out.println(s);
+//                }
+//            }
+//        );
+//
+//        flux.subscribe(System.out::println);
     }
 }

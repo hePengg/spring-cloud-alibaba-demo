@@ -5,7 +5,7 @@ public class ObjectTest {
     @Test
     public void test() throws InterruptedException {
         People people = new People();
-        people.wait();
+//        people.wait();
     }
 
     class People {
