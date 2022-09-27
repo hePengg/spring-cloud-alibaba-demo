@@ -4,7 +4,10 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: my.server.com:8848
+        # ip:port，有多个逗号隔开
+        server-addr: 175.178.155.158:8848
+        # 访问腾讯云，域名需要备案
+#        endpoint: my.server.com:8848
 #        group:
 #        namespace: 154df3a2-204d-48a2-950c-96d4aa96c8d5
 
